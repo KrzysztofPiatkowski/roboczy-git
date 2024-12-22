@@ -35,6 +35,39 @@
                 <i class="fa-solid fa-code"></i>
             </div>
         </section>
+        <section>
+            <form>
+                <h2 class="section-title">Contact</h2>
+                <input type="your-name" placeholder="Your name"><br>
+                <input type="your-email" placeholder="Your email"><br>
+                <input type="subject" placeholder="Subject"><br>
+                <input type="message" placeholder="Type your message"><br>
+                <fieldset>
+                    <legend>Jesteś naszym kursantem?</legend>
+                    <span>
+                    <input type="radio" id="student" name="if_student" value="yes">
+                    <label for="student">YES, I am.</label>
+                    </span>
+                    <span>
+                    <input type="radio" id="not_student" name="if_student" value="no">
+                    <label for="not_student">NO, I am not.</label>
+                    </span>
+                </fieldset>
+                <input type="submit" value="Wyślij">
+            </form>
+            
+            <form>
+                <h2>Czy jesteś naszym kursantem?</h2>
+                <datalist id="if_student">
+                <option value="Yes, I am">
+                </option>
+                <option value="No, I am not">
+                </option>
+                </datalist>
+                <input type="text" list="if_student">
+            </form>
+            
+        </section>
         <footer class="page-footer">
             <div class="container">
                 <h2 class="footer-title"><i class="fa-regular fa-face-smile"></i> Wszystkie prawa zastrzeżone</h2>
