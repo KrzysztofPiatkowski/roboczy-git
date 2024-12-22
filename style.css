@@ -17,3 +17,16 @@ body {
     font-size: 16px;
     line-height: 1.7; /* interlinia */
 }
+
+/* Footer */
+
+.page-footer {
+    background: #242424;
+    height: 50px;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 15px;
+    padding: 17px 0;
+}
