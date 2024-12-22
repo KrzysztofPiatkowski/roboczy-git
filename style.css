@@ -1,0 +1,19 @@
+/* Global */
+
+$color-main: #16a085;
+$font-text: "Josefin Sans", sans-serif;
+$font-header: "Open Sans", sans-serif;
+
+*, *::before, *::after {  /* do rozmiaru wszystkich elementow HTML wliczy sie padding i border */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $font-text;
+    text-align: center; /*tekst wysrodkowany */
+    background: #fff;
+    color: #3d3d3d;
+    font-size: 16px;
+    line-height: 1.7; /* interlinia */
+}
